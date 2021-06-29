@@ -33,7 +33,7 @@
     <!---------------------------------------------------- hero ------------------------------>
     <main>
         <section class="hero ">
-            <div class="container container-hero">
+            <div class="container">
                 <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="hero-button">Заказать услугу </button>
             </div>
@@ -41,10 +41,10 @@
         </section>
 
         <!---------------------------------------------advantage  ---------------------------->
-        <section>
+        <section class="advantage-box">
             <div class="container">
                 <h2  hidden>преимущества</h2>
-                <ul class="advantage-box"   >
+                <ul class="advantage-box-list" >
                     <li>
                         <h3 class="header-typeh3">Внимание к деталям</h3>
                         <p class="secondary-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -69,8 +69,8 @@
         </section>
 
         <!---------------------------------------------work-img ---------------------------- -->
-        <section>
-            <div class="container work-container">
+        <section class="work-container">
+            <div class="container ">
                 <h2 class="header-typeh2">Чем мы занимаемся</h2>
                 <ul class="work-section">
                     <li class="work-image"><img src="./images/2_what_are_we_doing.jpg" alt="Набираем код руководствуясь блок-схемой" width="370px" height="295px"></li>
@@ -82,29 +82,37 @@
         </section>
 
         <!-------------------------------------------------ourTeam  ------------------------------->
-        <section>
-            <div class="container container-team-spaces">
+        <section class="container-team-spaces">
+            <div class="container ">
                 <h2 class="header-typeh2">Наша команда</h2>
                 <ul class="ourteam-container">
                     <li class="photo-list-item photo-list-space">
                         <img src="./images/5_igor.jpg" alt="Мужчина в очках и коричневой рубашке" width="270px" height="260px">
-                        <h3 class="photo-texth3">Игорь Демьяненко</h3>
-                        <p class="photo-text2th">Product Designer</p>
+                        <div class="photo-text-padding">
+                            <h3 class="photo-texth3">Игорь Демьяненко</h3>
+                            <p class="photo-text2th">Product Designer</p>
+                        </div>
                     </li>
                     <li class="photo-list-item photo-list-space">
                         <img src="./images/6_olga.jpg" alt="Девушка в очках блондика" width="270px" height="260px">
-                        <h3 class="photo-texth3">Ольга Репина</h3>
-                        <p class="photo-text2th">Frontend Developer</p>
+                        <div class="photo-text-padding">
+                            <h3 class="photo-texth3">Ольга Репина</h3>
+                            <p class="photo-text2th">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="photo-list-item photo-list-space">
                         <img src="./images/7_nikolay.jpg" alt="Мужчина в светлой рубашке" width="270px" height="260px">
-                        <h3 class="photo-texth3">Николай Тарасов</h3>
-                        <p class="photo-text2th">Marketing</p>
+                        <div class="photo-text-padding">
+                            <h3 class="photo-texth3">Николай Тарасов</h3>
+                            <p class="photo-text2th">Marketing</p>
+                        </div>
                     </li >
                     <li class="photo-list-item photo-list-space">
                         <img src="./images/8_mihail.jpg" alt="Мужчина в очках с тату алыбается" width="270px" height="260px">
-                        <h3 class="photo-texth3">Михаил Ермаков</h3>
-                        <p class="photo-text2th">UI Designer</p>
+                        <div class="photo-text-padding">
+                            <h3 class="photo-texth3">Михаил Ермаков</h3>
+                            <p class="photo-text2th">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -114,7 +122,7 @@
 
     <!--  -->
     <footer class="footer">
-        <div class="container footer-box">
+        <div class="container ">
             <a href="./index.html" class="logo-footer footer-space "><span>Web</span>Studio</a>
             <address class="address-build footer-spaces">
                 г. Киев, пр-т Леси Украинки, 26
